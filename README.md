@@ -2,8 +2,17 @@
 
 Hey Pardas,
 
-This alb was fun and I had a blast. I did it in C++. Here's build 
+This lab was fun and I had a blast. I did it in C++. Here's how to install C++ (which you said is your primary language already, but just for completeness):
 
+**PS** this can take both command line input or POSIX arg counting, as per the input file in python. just make sure to do
+
+./a.out "(x+y)^3"
+
+as if you do 
+
+./a.out (x+y)^3
+
+zsh will not treat it as a string.
 
 # Mac OS
 

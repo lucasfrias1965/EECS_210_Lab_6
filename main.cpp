@@ -98,14 +98,21 @@ class PascalTriangle{
 
 };
 
-int main(){
+int main(int argc, char ** argv){
    
     //declare out expansion size and user input 
     std::size_t expansion_size;    
     std::string user_in;
-    std::cout << "Input your polynomial: ";
-    //input into the polynomail
-    std::cin >> user_in;
+
+    if (argc != 2){
+	    std::cout << "Input your polynomial: ";
+	    //input into the polynomail
+	    std::cin >> user_in;
+
+    }
+    else{
+	user_in = argv[1];
+    }
    
     //c++ messing around with this string parsing
     //stuff sucks so we will do it ourself
